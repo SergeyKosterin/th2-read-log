@@ -2,9 +2,7 @@
 
 ## Document Information
 
-### Table of contents
 
-{table_contents}
 
 ### Introduction
 
@@ -42,7 +40,7 @@ spec:
       - path: "<distination path in Kubernetes pod>"
         pvcName: <Kubernetes persistent volume component name >
     resources:
-	  # Min system requirments ...
+      # Min system requirments ...
       limits:
         memory: 200Mi
         cpu: 200m
